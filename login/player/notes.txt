@@ -1,0 +1,31 @@
+things needed for uploader
+
+Click button add new music
+
+Prompt
+	artist name
+	album name
+
+check if it already exists// confirm creation	y/n
+	
+If its an album or not if not then add to a self titled album
+
+create object with key values below
+
+populate infomation based on artist name.
+
+pull the names of each track name and put them in the tracks array inside the artistinfo object.
+
+	"artistName": {
+		artist: "artistName",		
+		album: ["artistName"],
+		dir: "player/Music/artistName/",
+		tracks: ["Track.mp3", 
+				"Track.mp3", 
+				"Track.mp3", 
+				"Track.mp3", 
+				"Track.mp3", 
+				"Track.mp3",
+				"Track.mp3",
+				"Track.mp3"]
+	}
